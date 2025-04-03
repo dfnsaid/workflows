@@ -1,0 +1,6 @@
+mkdir -p .github/workflows
+touch .github/workflows/compile.yml
+# Open the file with your preferred text editor and paste the YAML content
+git add .github/workflows/compile.yml
+git commit -m "Add GitHub Actions workflow for real-time compilation and preview"
+git push origin main
